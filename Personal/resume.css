@@ -1,0 +1,67 @@
+body {
+  font-family: 'Times New Roman', sans-serif;
+  background-color: whitesmoke;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+header {
+  background-color: darkslategray;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px 8px 0 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+address, header p {
+  font-style: normal;
+  font-size: 14px;
+}
+
+
+h2 {
+  color: darkslategray;
+  border-bottom: 2px solid lightgray;
+  padding-bottom: 5px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.skills li {
+  display: inline-block;
+  background-color: gainsboro;
+  color: black;
+  padding: 6px 12px;
+  margin: 5px 5px 5px 0;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.skills li:hover {
+  background-color: darkslategray;
+  color: white;
+}
+a {
+  color: dodgerblue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
