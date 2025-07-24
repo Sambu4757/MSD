@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+        }
+        .box {
+            padding: 15px;
+            padding-top: 100px;
+            border-radius: 12px;
+            background-color:black;
+            display: grid;
+            grid-template-columns: repeat(4, 60px);
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+        .box > div {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: grey;
+            color:white;
+            font-size: 30px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .box > div:hover {
+            background-color:orange;
+        }
+        .box > div.operator {
+            background-color:orange;
+            color:black;
+        }
+        .box > div.operator:hover {
+            background-color:white;
+            color:black;
+        }
+        .box > div.function {
+            background-color:orange;
+            color:black;
+        }
+        .box > div.function:hover {
+            background-color:white;
+            color:black;
+        }
+        .box > div.zero {
+            grid-column: span 2;
+            width: auto; 
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="function">AC</div>
+        <div class="function">+/-</div>
+        <div class="function">%</div>
+        <div class="operator">/</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div class="operator">x</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div class="operator">-</div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div class="operator">+</div>
+        <div class="zero">0</div>
+        <div>.</div>
+        <div>=</div>
+    </div>
+</body>
+</html>
